@@ -1,5 +1,6 @@
 from scipy import stats
 import numpy as np
+import blpapi as bb
 
 _norm_cdf = stats.norm(0, 1).cdf
 _norm_pdf = stats.norm(0, 1).pdf
